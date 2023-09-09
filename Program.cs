@@ -1,5 +1,5 @@
-using BookStoreApi.Models;
-using BookStoreApi.Services;
+using BibliotecaAPI.Models;
+using BibliotecaAPI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

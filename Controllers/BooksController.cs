@@ -1,8 +1,8 @@
-using BookStoreApi.Models;
-using BookStoreApi.Services;
+using BibliotecaAPI.Models;
+using BibliotecaAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BookStoreApi.Controllers;
+namespace BibliotecaAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

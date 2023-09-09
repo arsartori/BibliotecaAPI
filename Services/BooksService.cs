@@ -1,8 +1,8 @@
-using BookStoreApi.Models;
+using BibliotecaAPI.Models;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 
-namespace BookStoreApi.Services;
+namespace BibliotecaAPI.Services;
 
 public class BooksService
 {
