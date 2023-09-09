@@ -1,6 +1,6 @@
 namespace BibliotecaAPI.Models;
 
-public class BookStoreDatabaseSettings
+public class BibliotecaDatabaseSettings
 {
     public string ConnectionString { get; set; } = null!;
 

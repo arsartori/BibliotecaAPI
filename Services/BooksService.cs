@@ -9,7 +9,7 @@ public class BooksService
     private readonly IMongoCollection<Book> _booksCollection;
 
     public BooksService(
-        IOptions<BookStoreDatabaseSettings> bookStoreDatabaseSettings)
+        IOptions<BibliotecaDatabaseSettings> bookStoreDatabaseSettings)
     {
         var mongoClient = new MongoClient(
             bookStoreDatabaseSettings.Value.ConnectionString);
